@@ -139,7 +139,7 @@ Save_And_Exit () {
     git commit -m backup &> /dev/null
     git branch -M ipuk &> /dev/null
     git remote add origin https://github.com/myridwan/backup
-    git push -f https://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@github.com/myridwan/backup.git &> /dev/null
+    git push -f https://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@github.com/myridwan/backup.git &> /dev/null
 }
 
 if [ ! -d "/root/user-backup/" ]; then
