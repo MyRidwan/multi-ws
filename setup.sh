@@ -176,7 +176,7 @@ exit 0
 fi
 sleep 3
 
-mkdir -p /etc/ssnvpn
+mkdir -p /etc/kyt
 mkdir -p /etc/ssnvpn/theme
 mkdir -p /var/lib/ssnvpn-pro >/dev/null 2>&1
 echo "IP=" >> /var/lib/ssnvpn-pro/ipvps.conf
