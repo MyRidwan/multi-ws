@@ -5,8 +5,6 @@ biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 echo -e " [INFO] Downloading Update File"
 sleep 2
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/update/menu.sh" && chmod +x /usr/bin/menu
-wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/backup/restore.sh" && chmod +x /usr/bin/restore
-wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/backup/backup.sh" && chmod +x /usr/bin/backup
 wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/update/menu-ss.sh" && chmod +x /usr/bin/menu-ss
 wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/update/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
 wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/update/menu-vless.sh" && chmod +x /usr/bin/menu-vless
