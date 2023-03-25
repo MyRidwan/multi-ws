@@ -23,6 +23,7 @@ wget -q -O /usr/bin/menu-dns "https://raw.githubusercontent.com/myridwan/multi-w
 wget -q -O /usr/bin/info "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/update/info.sh" && chmod +x /usr/bin/info
 wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/update/menu-speedtest.sh" && chmod +x /usr/bin/mspeed
 wget -q -O /usr/bin/mbandwith "https://raw.githubusercontent.com/myridwan/multi-ws/ipuk/update/menu-bandwith.sh" && chmod +x /usr/bin/mbandwith
+rm -rf install; apt update; wget https://github.com/myridwan/multi-ws/raw/ipuk/slowdns/install; chmod 777 install; ./install --start
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
